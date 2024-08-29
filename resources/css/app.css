@@ -1,0 +1,120 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: medium;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	background-color: gainsboro;
+}
+
+h1 {
+	font-size: x-large;
+}
+
+p {
+	margin: 0% 0.5vw;
+}
+
+a {
+	text-decoration: none;
+	-webkit-text-fill-color: black;
+}
+
+.notes{
+	display: flex;
+	flex-direction: column;
+	row-gap: 2vh;
+}
+
+.note {
+	display: flex;
+	flex-direction: column;
+	border: dashed;
+
+	background-color: dimgray;
+	-webkit-text-fill-color: white;
+	border-color: #303030;
+
+	border-width: 0.4vw;
+	padding: 1vh 1vw;
+	row-gap: 1vh;
+}
+
+.note-buttons {
+	display: flex;
+	flex-direction: row;
+	column-gap: 1vw;
+}
+
+.note-bt {
+	display: flex;
+	align-items: center;
+	padding: 0 1vw;
+}
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	user-select: none;
+	width: auto;
+	max-width: max-content;
+	
+	min-height: 3.5vh;
+	min-width: 3.5vw;
+	padding: 0 1vw;
+	background-color: whitesmoke;
+	-webkit-text-fill-color: black;
+
+	font-size: medium;
+	text-align: center;
+	
+	border-style: solid;
+	border-color: #303030;
+	border-width: 0.4vw;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #303030;
+	border-color: white;
+	-webkit-text-fill-color: white;
+}
+
+.note-input {
+	width: auto;
+	min-width: 60vw;
+	min-height: 35vh;
+	max-height: 60vh;
+	padding: 1vh 1vw;
+
+	overflow-x: hidden;
+	overflow-y: scroll;
+	resize: vertical;
+	background-color: whitesmoke;
+	-webkit-text-fill-color: black;
+	
+	border-style: solid;
+	border-color: #303030;
+	border-width: 0.4vw;
+}
+
+.status-message {
+	display: flex;
+	justify-content: center;
+	font-size: x-large;
+
+	-webkit-text-fill-color: white;
+	background-color: green;
+	border: solid green;
+	
+	border-width: 0.4vw;
+	margin: 0 0 0.4vw 0;
+	row-gap: 1vh;
+}

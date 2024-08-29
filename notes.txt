@@ -1,0 +1,9 @@
+File name was a pun not intended.
+
+Order of tasks:
+Create route >
+Create controller >
+Create views (HTML) >
+Migrate and create tables(Execute to create the tables php artisan migrate:refresh --seed) >
+Create models >
+Expand/Reapeat from step zero
