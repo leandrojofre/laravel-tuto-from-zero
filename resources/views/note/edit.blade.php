@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
 	<div>
 		<h1>Edit your note:</h1>
 
@@ -14,4 +14,4 @@
 			</div>
 		</form>
 	</div>
-</x-layout>
+</x-app-layout>

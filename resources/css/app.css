@@ -18,6 +18,10 @@ body {
 	padding: 1vh 1vw;
 }
 
+main {
+	margin-top: 2vh;
+}
+
 h1 {
 	font-size: x-large;
 }
@@ -122,4 +126,5 @@ a {
 	border-width: 0.4vw;
 	margin: 0 0 0.4vw 0;
 	row-gap: 1vh;
+	margin-top: 2vh;
 }

@@ -27,6 +27,13 @@
                 </header>
             @endisset
 
+            {{-- Page Status Messages --}}
+            @session('message')
+                <div class="status-message">
+                    {{ session('message') }}
+                </div>
+            @endsession
+
             <!-- Page Content -->
             <main>
                 {{ $slot }}
